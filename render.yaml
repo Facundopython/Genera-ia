@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: generaia
+    env: python
+    buildCommand: ""
+    startCommand: ./start.sh
+    region: oregon
+    plan: free
+    autoDeploy: true
